@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chris_profile"
+        android:layout_margin="10dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/profile_image">
+        <TextView
+            android:id="@+id/chat_name"
+            android:text="이름"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/chat_content"
+            android:text="뭔가 이런 대화를 나누었다"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chat_name"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:background="@drawable/border_line_only"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/my_profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/okabe_profile"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/my_profile_image">
+        <TextView
+            android:id="@+id/my_chat_name"
+            android:text="내 이름"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/my_chat_content"
+            android:text="내가 뭔가 이런 대화를 나누었다"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/my_chat_name"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:background="@drawable/border_line_only" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/title_bar" android:layout_width="match_parent" android:layout_height="50dp" android:background="#000000">
+        <ImageView android:id="@+id/battery" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginRight="5dp" android:layout_marginLeft="3dp" android:src="@drawable/full_battery_32"/>
+        <ImageView android:id="@+id/signal" android:layout_width="50dp" android:layout_height="25dp" android:layout_centerVertical="true" android:layout_toLeftOf="@+id/battery" android:src="@drawable/signal_40"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/bar_layout" android:layout_width="match_parent" android:layout_height="70dp" android:background="@drawable/rine_color" android:layout_marginTop="50dp">
+        <ImageView android:layout_width="50dp" android:layout_height="50dp" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:src="@drawable/add_user" android:layout_margin="5dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/room_1" android:layout_width="match_parent" android:layout_height="100dp" android:layout_below="@id/bar_layout" android:clickable="true" android:foreground="@drawable/click_effect" android:onClick="roomClicked" android:background="@drawable/border_line_only">
+        <ImageView android:id="@+id/room_image" android:layout_width="50dp" android:layout_height="50dp" android:layout_centerVertical="true" android:layout_margin="10dp" android:src="@drawable/chris_profile" android:scaleType="fitXY"/>
+        <TextView android:id="@+id/room_title" android:text="Kurisu" android:textSize="25dp" android:layout_width="match_parent" android:layout_height="30dp" android:layout_centerVertical="true" android:layout_toRightOf="@id/room_image" android:layout_alignParentTop="true" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"/>
+        <TextView android:id="@+id/lasttext1" android:textSize="25dp" android:layout_width="match_parent" android:layout_height="30dp" android:layout_centerVertical="true" android:layout_toRightOf="@id/room_image" android:layout_below="@id/room_title" android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/room_2" android:layout_width="match_parent" android:layout_height="100dp" android:layout_below="@id/room_1" android:clickable="true" android:foreground="@drawable/click_effect" android:onClick="roomClicked" android:background="@drawable/border_line_only">
+        <ImageView android:id="@+id/room2_image" android:layout_width="50dp" android:layout_height="50dp" android:layout_centerVertical="true" android:layout_margin="10dp" android:src="@drawable/daru"/>
+        <TextView android:id="@+id/room2_title" android:text="Daru" android:textSize="25dp" android:layout_width="match_parent" android:layout_height="30dp" android:layout_centerVertical="true" android:layout_toRightOf="@id/room2_image" android:layout_alignParentTop="true" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"/>
+        <TextView android:id="@+id/lasttext2" android:textSize="25dp" android:layout_width="match_parent" android:layout_height="30dp" android:layout_centerVertical="true" android:layout_toRightOf="@id/room2_image" android:layout_below="@id/room2_title" android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/room_3" android:layout_width="match_parent" android:layout_height="100dp" android:layout_below="@id/room_2" android:clickable="true" android:foreground="@drawable/click_effect" android:onClick="roomClicked" android:background="@drawable/border_line_only">
+        <ImageView android:id="@+id/room3_image" android:layout_width="50dp" android:layout_height="50dp" android:layout_centerVertical="true" android:layout_margin="10dp" android:src="@drawable/mayushi"/>
+        <TextView android:id="@+id/room3_title" android:text="Mayushi" android:textSize="25dp" android:layout_width="match_parent" android:layout_height="30dp" android:layout_centerVertical="true" android:layout_toRightOf="@id/room3_image" android:layout_alignParentTop="true" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"/>
+        <TextView android:id="@+id/lasttext3" android:textSize="25dp" android:layout_width="match_parent" android:layout_height="30dp" android:layout_centerVertical="true" android:layout_toRightOf="@id/room3_image" android:layout_below="@id/room3_title" android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>
