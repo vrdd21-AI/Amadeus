@@ -1,0 +1,39 @@
+name	text	sentiment
+okabe	Who are you?	0
+kurisu	That's what I'd like to know	1
+okabe	What?	0
+kurisu	Back there, you were going to tell me something.	0
+okabe	Back there?	0
+kurisu	About fifteen minutes ago.	0
+okabe	Makise... Kurisu?	2
+kurisu	I'm surprised you know of it.	2
+okabe	You! Are you an agent of The Organization?	1
+kurisu	Organization? What? I just wanted ask you...	1
+okabe	It's me. I've been caught by an Organization agent.	1
+kurisu	Who are you talking to?	1
+okabe	Yeah, it should be no trouble.	2
+kurisu	Huh? It's turned off.	1
+okabe	I'll tell you a secret. If anyone but me touches it, it deactivates.	2
+kurisu	I see. You were talking to yourself.	1
+okabe	Genius Girl, when next we meet, we will be enemies. Farewell.	0
+kurisu	Wait!	1
+okabe	How? I can feel her. She's really here. You're not a spirit?	0
+kurisu	Do you want me to call the cops?	1
+okabe	I just want to know the truth! You were stabbed right here...	1
+kurisu	What do you mean by "the truth"? Are you stupid? Do you want to die?	1
+okabe	Wait! Are you running away?	1
+kurisu	You're...	0
+okabe	time machines?	0
+kurisu	I think time machines are nothing more than a pipe dream.	0
+okabe	Objection! It's far too early to conclude that!	1
+kurisu	It's theoretically impossible.	1
+okabe	What?	1
+kurisu	Well then, let's change the format of this lecture to a discussion.	0
+okabe	It's really a teleporter?	2
+kurisu	That's an interesting experiment you're conducting there, Okabe Rintarou.	2
+okabe	Do you think one could build a time machine?	0
+kurisu	My personal belief is that time machines are not possible. However, that is not to say they are impossible altogether	0
+okabe	You don't think it's a bunch of nonsense?	1
+kurisu	It would be rather hasty to assume that.	0
+okabe	There are a number of time travel theories but they are nothing but speculation.	1
+kurisu	Even so, we could be missing that one critical discovery that unlocks new understanding	0
