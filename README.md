@@ -41,18 +41,21 @@ Finally, you can see what AI answered on your phone.
 
 1. Install the android studio (If you already have one, skip this)
 2. Open the folder "./Chatbot_android_application_client/Amadeus" as an android project
-3. Find file "./Chatbot_android_application_client\Amadeus\app\src\main\java\com\example\amadeus\NetworkConfigure.java" and insert your own public or private ip to the variable string IP. (ex. IP = "192.168.0.1") If you don't have IP, 
+3. Find file "./Chatbot_android_application_client\Amadeus\app\src\main\java\com\example\amadeus\NetworkConfigure.java" and insert your own public or private ip to the variable string IP. (ex. IP = "192.168.0.1") The PORT number is decided by Chatbot server, so you can just leave it now. 
 4. Click the run button in your android studio 
 
 # How to start chatbot server?
 
 1. Go to the folder "./Chatbot_core"
+2. Find file "Chatbot.py".
+3. Change the variables named HOST and PORT. You can assign public ip or private ip to the HOST and assign any available port to the PORT. Note that, the port number should be same with the port number in android application (Check How to start android application?) 
 2. Type the "python Chatbot.py"
 
 # How to make my own chatbot?
 
 1. Go to the folder "./Chatbot_core/Data"
 2. There is a dialogue_example.txt. If you want to teach some other words, insert more texts to that text file.
+<br>
 Warning:
   You should keep the form of the text. There are three categories (name, text, sentiment) and each category is separated by tab (you know, tab on the keyboard).
   There must be one question and following one answer! The application doesn't consider whole context. 
