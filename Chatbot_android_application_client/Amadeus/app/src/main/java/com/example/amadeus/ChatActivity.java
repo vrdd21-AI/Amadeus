@@ -91,13 +91,13 @@ public class ChatActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         if(name.equals("Daru")){
-            myDataset.add(new ChatDTO(name, "해커가 아니고 하카다로 상생"));
+            myDataset.add(new ChatDTO(name, "What?"));
             editText.setText("Kurisu was stabbed ...");
 
         }
 
         if(name.equals("Mayushi")){
-            myDataset.add(new ChatDTO(name, "뚯두루 마유시데스"));
+            myDataset.add(new ChatDTO(name, "Where is my Metal U-pa...?"));
             editText.setText("Metal Upa? don't find it.");
         }
 
