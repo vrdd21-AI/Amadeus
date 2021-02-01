@@ -37,3 +37,5 @@ okabe	You don't think it's a bunch of nonsense?	1
 kurisu	It would be rather hasty to assume that.	0
 okabe	There are a number of time travel theories but they are nothing but speculation.	1
 kurisu	Even so, we could be missing that one critical discovery that unlocks new understanding	0
+okabe	Test question	0
+kurisu	Test answer	0
