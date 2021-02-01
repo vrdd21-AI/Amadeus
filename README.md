@@ -55,10 +55,9 @@ Finally, you can see what AI answered on your phone.
 
 1. Go to the folder "./Chatbot_core/Data"
 2. There is a dialogue_example.txt. If you want to teach some other words, insert more texts to that text file.
-<br>
 Warning:
   You should keep the form of the text. There are three categories (name, text, sentiment) and each category is separated by tab (you know, tab on the keyboard).
-  There must be one question and following one answer! The application doesn't consider whole context. 
+  There must be one question and following one answer! The application doesn't consider whole context. <br>
 4. Type the "python Chatbot.py --training"
 
 # Copyright
