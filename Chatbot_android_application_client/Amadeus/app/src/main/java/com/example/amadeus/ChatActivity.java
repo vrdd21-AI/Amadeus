@@ -43,9 +43,9 @@ public class ChatActivity extends AppCompatActivity {
 
     public boolean isStop = true; // for client read thread
     public boolean canAnswer = true;
-    private String IP = "147.46.242.175";
+    private String IP = NetworkConfigure.IP;
     //private String IP = "192.168.0.16";
-    private int PORT = 10004;
+    private int PORT = NetworkConfigure.PORT;
 
     public Context context;
 

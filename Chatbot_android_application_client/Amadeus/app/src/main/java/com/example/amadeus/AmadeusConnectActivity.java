@@ -44,9 +44,9 @@ public class AmadeusConnectActivity extends AppCompatActivity {
     private boolean emotionStart = false;
     private int state = -1; // -1 : nothing, 0: neutral, 1: negative, 2: positive
 
-    private String IP = "147.46.242.175";
+    private String IP = NetworkConfigure.IP;
     //private String IP = "192.168.0.16";
-    private int PORT = 10004;
+    private int PORT = NetworkConfigure.PORT;
 
     Context cThis;
     Intent SttIntent;
