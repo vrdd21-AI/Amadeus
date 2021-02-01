@@ -56,7 +56,7 @@ Finally, you can see what AI answered on your phone.
 Warning:
   You should keep the form of the text. There are three categories (name, text, sentiment) and each category is separated by tab (you know, tab on the keyboard).
   There must be one question and following one answer! The application doesn't consider whole context. 
-4. Type the "Python Chatbot.py --training"
+4. Type the "python Chatbot.py --training"
 
 # Copyright
 There are some copyright issues with images. 
